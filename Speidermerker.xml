@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<spm:SpeiderMerker xmlns:spm="http://www.bygdoyspeider.net/Speidermerker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bygdoyspeider.net/Speidermerker Speidermerker.xsd ">
+  <spm:BeverMerker>
+    <spm:ProgramMerker>
+      <spm:ProgramMerke>
+        <spm:Navn>Friluftsliv</spm:Navn>
+        <spm:Beskrivelse>Hensikten med dette merket er at speiderne skal:   Utvikle sanseapparat, motorikk og fysisk form til et tilfredsstillende nivå i forhold til egne forutsetninger. -    Bli glad i naturen. -    Få kjennskap til naturen og ferdes i den til alle årstider.</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>images/Friluftsliv_Bever.gif</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>7</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:Mål>
+            <spm:Kode>F-1</spm:Kode>
+            <spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+            <spm:Beskrivelse>Få nye turerfaringer fra alle årstider.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Delta i sesongbestemte aktiviteter som ski, bading eller blomsterplukking.</spm:DelMål>
+              <spm:DelMål>Være med på to dagsturer.</spm:DelMål>
+              <spm:DelMål>Være på utemøter i alle årstider.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-2</spm:Kode>
+          	<spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle gode ferdigheter innen orientering.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Kjenne igjen de viktigste karttegnene som vann, myr, sti og vei.</spm:DelMål>
+          		<spm:DelMål>Kjenne de fire himmelretningene.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-3</spm:Kode>
+          	<spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle kunnskap om og erfaring med ulike overnattingsformer.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Kjenne til forskjellige overnattingsformer som telt, lavvo og gapahuk.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-4</spm:Kode>
+          	<spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle kunnskap om og erfaring med matlaging på ulike varmekilder.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Spise mat laget på bål, primus, i kokegrop eller på stormkjøkken.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-5</spm:Kode>
+          	<spm:MålKategori>F-5</spm:MålKategori>
+          	<spm:Beskrivelse>F-5</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Hjelpe til med å lage et bål.</spm:DelMål>
+          		<spm:DelMål>Kjenne til, og følge, regler for oppførsel ved bålet, og forstå hvorfor vi har disse reglene.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-6</spm:Kode>
+          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle forståelse for friluftslivets verdier og betydning for samfunnet.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Finne ut hvorfor det er bra å være i ute i naturen.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-7</spm:Kode>
+          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle forståelse for hvordan politiske beslutninger kan påvirke friluftslivet.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Kjenne til regler for hvordan mennesker skal ta vare på naturen, for eksempel hva vi skal gjøre med søppel på tur, eller hvorfor vi ikke kan kjøre bil og motorsykkel i utmark.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-8</spm:Kode>
+          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle kunnskap knyttet til lokal og nasjonal natur.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Ha kunnskap om hvordan mennesker bruker naturen, for eksempel i jordbruk.</spm:DelMål>
+          		<spm:DelMål>Se på fem blomster eller trær og fem dyr, og lære seg navnet på disse.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          <spm:Mål>
+          	<spm:Kode>F-9</spm:Kode>
+          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
+          	<spm:Beskrivelse>Få erfaring med ferdsel i ulike naturmiljø og utforsking av ukjente områder.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Utforske et sted de ikke har vært på før.</spm:DelMål>
+          		<spm:DelMål>Være på turer og møter hvor de ser på naturtyper som er vanlige i nærmiljøet deres, som skog, fjell, eng og skjærgård. </spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+          
+          <spm:Mål>
+          	<spm:Kode>F-10</spm:Kode>
+          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
+          	<spm:Beskrivelse>Oppleve stemninger og skjønnhet i naturen, både alene og sammen med andre.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Se døgnet skifte og oppleve for eksempel stjernehimmel, solnedgang og soloppgang eller skyer i vinden.</spm:DelMål>
+          		<spm:DelMål>Finne noe fint eller uvanlig i naturen.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål><spm:Mål>
+          	<spm:Kode>F-11</spm:Kode>
+          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
+          	<spm:Beskrivelse>Utvikle kunnskap om og erfaring med bruk av ikke-motoriserte framkomstmidler.</spm:Beskrivelse>
+          	<spm:MålDeler>
+          		<spm:DelMål>Vite hvordan de kan komme seg fram uten å gå eller bruke motor og prøve å bevege seg i naturen med for eksempel sykkel, ski eller robåt.</spm:DelMål>
+          	</spm:MålDeler>
+          </spm:Mål>
+        	<spm:Mål>
+        		<spm:Kode>F-12</spm:Kode>
+        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+        		<spm:Beskrivelse>Utvikle gode rutiner for turplanlegging.</spm:Beskrivelse>
+        		<spm:MålDeler>
+        			<spm:DelMål>Være med på å pakke en dagstursekk.</spm:DelMål>
+        			<spm:DelMål>Vite hvilke klær de skal ha på til ulike årstider.</spm:DelMål>
+        		</spm:MålDeler>
+        	</spm:Mål>
+        	<spm:Mål>
+        		<spm:Kode>F-13</spm:Kode>
+        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+        		<spm:Beskrivelse>Utvikle kunnskap og erfaring innen forebygging og håndtering av ulykker.</spm:Beskrivelse>
+        		<spm:MålDeler>
+        			<spm:DelMål>Kunne skaffe hjelp ved en ulykke.</spm:DelMål>
+        			<spm:DelMål>Kunne nummeret til sykebil, politi og brannvesen.</spm:DelMål>
+        			<spm:DelMål>Kunne knivreglene, og følge dem.</spm:DelMål>
+        		</spm:MålDeler>
+        	</spm:Mål>
+        	<spm:Mål>
+        		<spm:Kode>F-14</spm:Kode>
+        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+        		<spm:Beskrivelse>Utvikle og vedlikeholde ferdigheter innen førstehjelp.</spm:Beskrivelse>
+        		<spm:MålDeler>
+        			<spm:DelMål>Kunne rense sår og vite hvorfor det gjøres.</spm:DelMål>
+        			<spm:DelMål>Kunne sette på plaster og behandle sår og småskader. </spm:DelMål>
+        		</spm:MålDeler>
+        	</spm:Mål>
+        	<spm:Mål>
+        		<spm:Kode>F-15</spm:Kode>
+        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+        		<spm:Beskrivelse>Utvikle kunnskap om bruk og vedlikehold av turutstyr.</spm:Beskrivelse>
+        		<spm:MålDeler>
+        			<spm:DelMål>Holde orden på kniven: Passe på at kniven har hel slire, passe på at kniven legges i slira etter bruk, passe på at kniven ikke ligger på bakken.</spm:DelMål>
+        		</spm:MålDeler>
+        	</spm:Mål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+    </spm:ProgramMerker>
+    <spm:JegErBeredtMerke>
+      <spm:Navn>spm:Navn</spm:Navn>
+      <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+      <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+      <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+      <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+      <spm:BidrarTil>spm:BidrarTil</spm:BidrarTil>
+      <spm:Oppgaver>
+        <spm:Oppgave>
+          <spm:DelOppgaver>
+            <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+          </spm:DelOppgaver>
+          <spm:AntallDelOppgaverSomSkalUtføres>1</spm:AntallDelOppgaverSomSkalUtføres>
+        </spm:Oppgave>
+      </spm:Oppgaver>
+    </spm:JegErBeredtMerke>
+  </spm:BeverMerker>
+  <spm:SmåspeiderMerker>
+    <spm:ProgramMerker>
+      <spm:ProgramMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:Mål>
+            <spm:Kode>spm:Kode</spm:Kode>
+            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
+            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>spm:DelMål</spm:DelMål>
+            </spm:MålDeler>
+          </spm:Mål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+    </spm:ProgramMerker>
+    <spm:FordypningsMerker>
+      <spm:FordypningsMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+        <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+        <spm:MerkeType>Speider</spm:MerkeType>
+        <spm:BidrarTil/>
+        <spm:Oppgaver>
+          <spm:Oppgave>
+            <spm:DelOppgaver>
+              <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+            </spm:DelOppgaver>
+            <spm:AntallDelOppgaverSomSkalUtføres>0</spm:AntallDelOppgaverSomSkalUtføres>
+          </spm:Oppgave>
+        </spm:Oppgaver>
+        <spm:AntallSelvValgteOppgaver>0</spm:AntallSelvValgteOppgaver>
+      </spm:FordypningsMerke>
+    </spm:FordypningsMerker>
+    <spm:JegErBeredtMerke>
+      <spm:Navn>spm:Navn</spm:Navn>
+      <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+      <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+      <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+      <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+      <spm:BidrarTil>spm:BidrarTil</spm:BidrarTil>
+      <spm:Oppgaver>
+        <spm:Oppgave>
+          <spm:DelOppgaver>
+            <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+          </spm:DelOppgaver>
+          <spm:AntallDelOppgaverSomSkalUtføres>0</spm:AntallDelOppgaverSomSkalUtføres>
+        </spm:Oppgave>
+      </spm:Oppgaver>
+    </spm:JegErBeredtMerke>
+  </spm:SmåspeiderMerker>
+  <spm:StifinnerMerker>
+    <spm:ProgramMerker>
+      <spm:ProgramMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:Mål>
+            <spm:Kode>spm:Kode</spm:Kode>
+            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
+            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>spm:DelMål</spm:DelMål>
+            </spm:MålDeler>
+          </spm:Mål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+    </spm:ProgramMerker>
+    <spm:FordypningsMerker>
+      <spm:FordypningsMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+        <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+        <spm:MerkeType>Speider</spm:MerkeType>
+        <spm:BidrarTil/>
+        <spm:Oppgaver>
+          <spm:Oppgave>
+            <spm:DelOppgaver>
+              <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+            </spm:DelOppgaver>
+            <spm:AntallDelOppgaverSomSkalUtføres>0</spm:AntallDelOppgaverSomSkalUtføres>
+          </spm:Oppgave>
+        </spm:Oppgaver>
+        <spm:AntallSelvValgteOppgaver>0</spm:AntallSelvValgteOppgaver>
+      </spm:FordypningsMerke>
+    </spm:FordypningsMerker>
+    <spm:JegErBeredtMerke>
+      <spm:Navn>spm:Navn</spm:Navn>
+      <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+      <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+      <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+      <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+      <spm:BidrarTil>spm:BidrarTil</spm:BidrarTil>
+      <spm:Oppgaver>
+        <spm:Oppgave>
+          <spm:DelOppgaver>
+            <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+          </spm:DelOppgaver>
+          <spm:AntallDelOppgaverSomSkalUtføres>0</spm:AntallDelOppgaverSomSkalUtføres>
+        </spm:Oppgave>
+      </spm:Oppgaver>
+    </spm:JegErBeredtMerke>
+  </spm:StifinnerMerker>
+  <spm:VandrerMerker>
+    <spm:ProgramMerker>
+      <spm:ProgramMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:Mål>
+            <spm:Kode>spm:Kode</spm:Kode>
+            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
+            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>spm:DelMål</spm:DelMål>
+            </spm:MålDeler>
+          </spm:Mål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+    </spm:ProgramMerker>
+    <spm:FordypningsMerker>
+      <spm:FordypningsMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+        <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+        <spm:MerkeType>Speider</spm:MerkeType>
+        <spm:BidrarTil/>
+        <spm:Oppgaver>
+          <spm:Oppgave>
+            <spm:DelOppgaver>
+              <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+            </spm:DelOppgaver>
+            <spm:AntallDelOppgaverSomSkalUtføres>0</spm:AntallDelOppgaverSomSkalUtføres>
+          </spm:Oppgave>
+        </spm:Oppgaver>
+        <spm:AntallSelvValgteOppgaver>0</spm:AntallSelvValgteOppgaver>
+      </spm:FordypningsMerke>
+    </spm:FordypningsMerker>
+  </spm:VandrerMerker>
+  <spm:RoverMerker>
+    <spm:ProgramMerker>
+      <spm:ProgramMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:Mål>
+            <spm:Kode>spm:Kode</spm:Kode>
+            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
+            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>spm:DelMål</spm:DelMål>
+            </spm:MålDeler>
+          </spm:Mål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+    </spm:ProgramMerker>
+    <spm:FordypningsMerker>
+      <spm:FordypningsMerke>
+        <spm:Navn>spm:Navn</spm:Navn>
+        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
+        <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
+        <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
+        <spm:MerkeType>Speider</spm:MerkeType>
+        <spm:BidrarTil/>
+        <spm:Oppgaver>
+          <spm:Oppgave>
+            <spm:DelOppgaver>
+              <spm:DelOppgave>spm:DelOppgave</spm:DelOppgave>
+            </spm:DelOppgaver>
+            <spm:AntallDelOppgaverSomSkalUtføres>0</spm:AntallDelOppgaverSomSkalUtføres>
+          </spm:Oppgave>
+        </spm:Oppgaver>
+        <spm:AntallSelvValgteOppgaver>0</spm:AntallSelvValgteOppgaver>
+      </spm:FordypningsMerke>
+    </spm:FordypningsMerker>
+  </spm:RoverMerker>
+</spm:SpeiderMerker>

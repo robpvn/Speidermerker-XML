@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.bygdoyspeider.net/Speidermerker" elementFormDefault="qualified" xmlns:spm="http://www.bygdoyspeider.net/Speidermerker">
+
+
+    
+    <include schemaLocation=""></include>
+    <complexType name="ProgramMerke">
+    	<sequence>
+    		<element name="Navn" type="string"></element>
+            <element name="Beskrivelse" type="string"></element>
+            <element name="MerkeBildeUrl" type="string"></element>
+    		<element name="AntallMålSomSkalNås">
+    			<simpleType>
+    				<restriction base="int">
+    					<minInclusive value="1"></minInclusive>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    		<element name="ProgramMål" type="spm:ProgramMål"
+    			maxOccurs="unbounded" minOccurs="1">
+    		</element>
+
+    	</sequence>
+    </complexType>
+    
+    
+    <complexType name="Mål">
+    	<sequence>
+    		<element name="Kode" type="spm:MålKode" maxOccurs="1" minOccurs="1"></element>
+            <element name="MålKategori" type="spm:MålKategori" maxOccurs="1" minOccurs="1">
+    		</element>
+            <element name="Beskrivelse" type="string" maxOccurs="1" minOccurs="1"></element>
+            <element name="MålDeler" type="spm:MålDeler"
+            	maxOccurs="1" minOccurs="1">
+            </element>
+            
+        </sequence>
+    </complexType>
+    
+
+    <complexType name="FordypningsMerke">
+        <sequence>
+    		<element name="Navn" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="Beskrivelse" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+            <element name="MerkeBildeUrl" type="string" maxOccurs="1" minOccurs="1"></element>
+            <element name="Begrunnelse" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="EkstraInfo" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="MerkeType" type="spm:MerkeType" maxOccurs="1" minOccurs="1"></element>
+    		<element name="BidrarTil" type="spm:MålKoder" maxOccurs="1"
+    			minOccurs="1">
+    		</element>
+    		<element name="Oppgaver" type="spm:Oppgaver" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="AntallSelvValgteOppgaver" type="int" maxOccurs="1" minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="Oppgave">
+    	<sequence>
+    		<element name="DelOppgaver" type="spm:DelOppgaver"
+    			maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="AntallDelOppgaverSomSkalUtføres"
+    			maxOccurs="1" minOccurs="1">
+    			<simpleType>
+    				<restriction base="int">
+    					<minInclusive value="1"></minInclusive>
+    				</restriction>
+    			</simpleType>
+    		</element>
+    	</sequence>
+    </complexType>
+    
+
+
+
+
+    <complexType name="SpeiderMerke">
+    	<sequence>
+
+    		<element name="BeverMerker" type="spm:BeverMerker"></element>
+    		<element name="SmåspeiderMerker"
+    			type="spm:SmåspeiderMerker">
+    		</element>
+    		<element name="StifinnerMerker"
+    			type="spm:StifinnerMerker">
+    		</element>
+    		<element name="VandrerMerker" type="spm:VandrerMerker"></element>
+    		<element name="RoverMerker" type="spm:RoverMerker"></element>
+    	</sequence>
+    </complexType>
+
+    <element name="SpeiderMerker" type="spm:SpeiderMerke"></element>
+
+    <complexType name="ProgramMerker">
+    	<sequence>
+    		<element name="ProgramMerke" type="spm:ProgramMerke" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="FordypningsMerker">
+    	<sequence>
+    		<element name="FordypningsMerke"
+    			type="spm:FordypningsMerke" maxOccurs="unbounded" minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <simpleType name="MålKode">
+    	<restriction base="string"></restriction>
+    </simpleType>
+
+    <complexType name="BeverMerker">
+    	<sequence>
+    		<element name="ProgramMerker" type="spm:ProgramMerker"></element>
+    		<element name="JegErBeredtMerke" type="spm:JegErBeredtMerke" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="SmåspeiderMerker">
+    	<sequence>
+    		<element name="ProgramMerker" type="spm:ProgramMerker"></element>
+    		<element name="FordypningsMerker"
+    			type="spm:FordypningsMerker">
+    		</element>
+    		<element name="JegErBeredtMerke" type="spm:JegErBeredtMerke" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="StifinnerMerker">
+    	<sequence>
+    		<element name="ProgramMerker" type="spm:ProgramMerker"></element>
+    		<element name="FordypningsMerker"
+    			type="spm:FordypningsMerker">
+    		</element>
+    		<element name="JegErBeredtMerke" type="spm:JegErBeredtMerke" maxOccurs="1" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="VandrerMerker">
+    	<sequence>
+    		<element name="ProgramMerker" type="spm:ProgramMerker"></element>
+    		<element name="FordypningsMerker"
+    			type="spm:FordypningsMerker">
+    		<element name="JegErBeredtMerke" type="spm:JegErBeredtMerke" maxOccurs="1" minOccurs="1"></element>
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="RoverMerker">
+    	<sequence>
+    		<element name="ProgramMerker" type="spm:ProgramMerker"></element>
+    		<element name="FordypningsMerker"
+    			type="spm:FordypningsMerker">
+    		<element name="JegErBeredtMerke" type="spm:JegErBeredtMerke" maxOccurs="1" minOccurs="1"></element>
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="ProgramMål">
+    	<sequence>
+    		<element name="Mål" type="spm:Mål" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="MålDeler">
+    	<sequence>
+    		<element name="DelMål" type="spm:DelMål" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <simpleType name="DelMål">
+    	<restriction base="string"></restriction>
+    </simpleType>
+
+    <simpleType name="MålKategori">
+    	<restriction base="string"></restriction>
+    </simpleType>
+
+    <simpleType name="DelOppgave">
+    	<restriction base="string"></restriction>
+    </simpleType>
+
+    <complexType name="DelOppgaver">
+    	<sequence>
+    		<element name="DelOppgave" type="spm:DelOppgave" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+    
+    <complexType name="Oppgaver">
+    	<sequence>
+    		<element name="Oppgave" type="spm:Oppgave" maxOccurs="unbounded" minOccurs="1"></element>
+    	</sequence>
+    </complexType>
+
+    <simpleType name="MerkeType">
+    	<restriction base="string">
+    		<enumeration value="Speider"></enumeration>
+    		<enumeration value="Patrulje"></enumeration>
+    	</restriction>
+    </simpleType>
+
+    <complexType name="JegErBeredtMerke">
+		<sequence>
+    		<element name="Navn" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="Beskrivelse" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+            <element name="MerkeBildeUrl" type="string" maxOccurs="1" minOccurs="1"></element>
+            <element name="Begrunnelse" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="EkstraInfo" type="string" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="BidrarTil" type="spm:MålKode" maxOccurs="1" minOccurs="1">
+    		</element>
+    		<element name="Oppgaver" type="spm:Oppgaver" maxOccurs="1" minOccurs="1">
+    		</element>
+    	</sequence>
+    </complexType>
+
+    <complexType name="MålKoder">
+    	<sequence>
+    		<element name="MålKode" type="spm:MålKode" maxOccurs="unbounded" minOccurs="0"></element>
+    	</sequence>
+    </complexType>
+</schema>
