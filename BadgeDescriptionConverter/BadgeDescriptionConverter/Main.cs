@@ -18,15 +18,41 @@ namespace BadgeDescriptionConverter
 
 			WebClient client = new WebClient();
 //
-//			string page = client.DownloadString(args[0]);
-			string page = client.DownloadString("http://speiderbasen.no/?side=bever.programmet.programmerker.friluftsliv");
 
-//			XDocument pageHTML = XDocument.Load(args[0]);
+//			string url = args[0];
+			string url = "http://speiderbasen.no/?side=bever.programmet.programmerker.friluftsliv";
+			string page = client.DownloadString(url);
+
 
 			HtmlDocument pageHTML = new HtmlDocument();
 			pageHTML.OptionFixNestedTags = true;
 			pageHTML.LoadHtml(page);
 
+
+			Console.WriteLine ("Opening XML file");
+
+			XDocument merkerXML = XDocument.Load("Speidermerker.xml");
+			XNamespace ns = "http://www.bygdoyspeider.net/Speidermerker";
+
+			Console.WriteLine ("Processing web page");
+
+			//Remove http://speiderbasen.no/?side=
+			string level = url.Remove(0, 29).Split('.')[0];
+
+			Console.WriteLine("Level:");
+			Console.WriteLine(level);
+
+			string programBadgeRootName;
+
+			switch (level) {
+				case "bever":
+					programBadgeRootName = "BeverMerker";
+					break;
+				default:
+					throw new ArgumentException("No known level");
+			}
+
+			XNode programBadgeRoot = merkerXML.Root.Descendants(ns + programBadgeRootName).Descendants(ns + "ProgramMerker").First();
 
 			//Betting heavy that all the pages are similar!
 			string badgeTitle =	pageHTML.DocumentNode.Descendants("div")
@@ -40,6 +66,7 @@ namespace BadgeDescriptionConverter
 
 			Console.WriteLine("Badge Image:");
 			Console.WriteLine(badgeImg);
+			client.DownloadFile("http://speiderbasen.no" + badgeImg, "images/" + badgeImg.Split('/')[3]);
 
 			Console.WriteLine("Parsing requirements");
 
