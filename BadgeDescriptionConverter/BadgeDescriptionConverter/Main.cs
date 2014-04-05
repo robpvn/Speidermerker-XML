@@ -48,11 +48,24 @@ namespace BadgeDescriptionConverter
 				case "bever":
 					programBadgeRootName = "BeverMerker";
 					break;
+				case "smaspeider":
+					programBadgeRootName = "SmåspeiderMerker";
+					break;
+				case "stifinner":
+					programBadgeRootName = "StifinnerMerker";
+					break;
+				case "vandrer":
+					programBadgeRootName = "VandrerMerker";
+					break;
+				case "rover":
+					programBadgeRootName = "RoverMerker";
+					break;
 				default:
 					throw new ArgumentException("No known level");
 			}
 
-			XNode programBadgeRoot = merkerXML.Root.Descendants(ns + programBadgeRootName).Descendants(ns + "ProgramMerker").First();
+			XElement programBadgeRoot = merkerXML.Root.Descendants(ns + programBadgeRootName).Descendants(ns + "ProgramMerker").First ();
+
 
 			//Betting heavy that all the pages are similar!
 			string badgeTitle =	pageHTML.DocumentNode.Descendants("div")
@@ -66,30 +79,56 @@ namespace BadgeDescriptionConverter
 
 			Console.WriteLine("Badge Image:");
 			Console.WriteLine(badgeImg);
-			client.DownloadFile("http://speiderbasen.no" + badgeImg, "images/" + badgeImg.Split('/')[3]);
+			string badgeImgPath = "images/" + badgeImg.Split('/')[3];
+			client.DownloadFile("http://speiderbasen.no" + badgeImg, badgeImgPath);
+
+			//Create the XML node
+			XElement badgeElement = new XElement(ns + "ProgramMerke");
+			programBadgeRoot.Add(badgeElement);
+			badgeElement.Add(new XElement(ns + "Navn", badgeTitle));
+			badgeElement.Add(new XElement(ns + "Beskrivelse", "FYLL INN MANUELT!"));
+			badgeElement.Add(new XElement(ns + "MerkeBildeUrl", badgeImgPath));
+			badgeElement.Add(new XElement(ns + "AntallMålSomSkalNås", 999));
+
+			XElement targetsElement = new XElement(ns + "ProgramMål");
+			badgeElement.Add (targetsElement);
 
 			Console.WriteLine("Parsing requirements");
 
 			HtmlNode reqTable = pageHTML.DocumentNode.Descendants("table").Where(x => x.Attributes["class"].Value == "maal_liste").First();
 
-			//TODO: Use these values to construct XML snippets
+
+			string targetGroupName = "";
+
 			foreach (var row in reqTable.ChildNodes) {
 				if (row.FirstChild.Attributes["class"].Value == "maal_gruppering") {
-					Console.WriteLine("Group: " + row.FirstChild.InnerText);
+					targetGroupName = row.FirstChild.InnerText;
+					Console.WriteLine("Group: " + targetGroupName);
 				} else if (row.FirstChild.Name == "td" && row.FirstChild.Attributes["class"].Value == "maal_liste") {
 					string code = row.ChildNodes.ElementAt(0).InnerText;
 					Console.WriteLine(code);
 					string desc = row.ChildNodes.ElementAt(1).InnerText;
 					Console.WriteLine(desc);
+
+					XElement target = new XElement(ns + "ProgramMål");
+					targetsElement.Add(target);
+
+					target.Add(new XElement(ns + "Kode", code));
+					target.Add(new XElement(ns + "MålKategori", targetGroupName));
+					target.Add(new XElement(ns + "Beskrivelse", desc));
+					XElement targetParts = new XElement(ns + "MålDeler");
+					target.Add(targetParts);
+
 					Console.WriteLine("Tasks: ");
 					foreach (var task in row.ChildNodes.ElementAt(2).FirstChild.Descendants("li")) {
-						string teskDesc = task.InnerText;
-						Console.WriteLine(teskDesc);
+						string taskDesc = task.InnerText;
+						Console.WriteLine(taskDesc);
+						targetParts.Add(new XElement(ns + "DelMål", taskDesc));
 					}
-
-
 				}
 			}
+
+			merkerXML.Save("Speidermerker_mod.xml");
 
 		}
 	}
