@@ -19,8 +19,8 @@ namespace BadgeDescriptionConverter
 			WebClient client = new WebClient();
 //
 
-//			string url = args[0];
-			string url = "http://speiderbasen.no/?side=bever.programmet.programmerker.friluftsliv";
+			string url = args[0];
+//			string url = "http://speiderbasen.no/?side=bever.programmet.programmerker.friluftsliv";
 			string page = client.DownloadString(url);
 
 
@@ -128,7 +128,7 @@ namespace BadgeDescriptionConverter
 				}
 			}
 
-			merkerXML.Save("Speidermerker_mod.xml");
+			merkerXML.Save("Speidermerker.xml");
 
 		}
 	}
