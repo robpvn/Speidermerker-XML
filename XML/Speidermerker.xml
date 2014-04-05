@@ -1,14 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <spm:SpeiderMerker xmlns:spm="http://www.bygdoyspeider.net/Speidermerker" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.bygdoyspeider.net/Speidermerker Speidermerker.xsd ">
   <spm:BeverMerker>
     <spm:ProgramMerker>
       <spm:ProgramMerke>
         <spm:Navn>Friluftsliv</spm:Navn>
-        <spm:Beskrivelse>Hensikten med dette merket er at speiderne skal:   Utvikle sanseapparat, motorikk og fysisk form til et tilfredsstillende nivå i forhold til egne forutsetninger. -    Bli glad i naturen. -    Få kjennskap til naturen og ferdes i den til alle årstider.</spm:Beskrivelse>
+        <spm:Beskrivelse>Hensikten med dette merket er at speiderne skal:
+
+    Utvikle sanseapparat, motorikk og fysisk form til et tilfredsstillende nivå i forhold til egne forutsetninger.
+    Bli glad i naturen.
+    Få kjennskap til naturen og ferdes i den til alle årstider.
+	</spm:Beskrivelse>
         <spm:MerkeBildeUrl>images/Friluftsliv_Bever.gif</spm:MerkeBildeUrl>
-        <spm:AntallMålSomSkalNås>7</spm:AntallMålSomSkalNås>
+        <spm:AntallMålSomSkalNås>8</spm:AntallMålSomSkalNås>
         <spm:ProgramMål>
-          <spm:Mål>
+          <spm:ProgramMål>
             <spm:Kode>F-1</spm:Kode>
             <spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
             <spm:Beskrivelse>Få nye turerfaringer fra alle årstider.</spm:Beskrivelse>
@@ -17,128 +22,606 @@
               <spm:DelMål>Være med på to dagsturer.</spm:DelMål>
               <spm:DelMål>Være på utemøter i alle årstider.</spm:DelMål>
             </spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-2</spm:Kode>
-          	<spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle gode ferdigheter innen orientering.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Kjenne igjen de viktigste karttegnene som vann, myr, sti og vei.</spm:DelMål>
-          		<spm:DelMål>Kjenne de fire himmelretningene.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-3</spm:Kode>
-          	<spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle kunnskap om og erfaring med ulike overnattingsformer.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Kjenne til forskjellige overnattingsformer som telt, lavvo og gapahuk.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-4</spm:Kode>
-          	<spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle kunnskap om og erfaring med matlaging på ulike varmekilder.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Spise mat laget på bål, primus, i kokegrop eller på stormkjøkken.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-5</spm:Kode>
-          	<spm:MålKategori>F-5</spm:MålKategori>
-          	<spm:Beskrivelse>F-5</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Hjelpe til med å lage et bål.</spm:DelMål>
-          		<spm:DelMål>Kjenne til, og følge, regler for oppførsel ved bålet, og forstå hvorfor vi har disse reglene.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-6</spm:Kode>
-          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle forståelse for friluftslivets verdier og betydning for samfunnet.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Finne ut hvorfor det er bra å være i ute i naturen.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-7</spm:Kode>
-          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle forståelse for hvordan politiske beslutninger kan påvirke friluftslivet.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Kjenne til regler for hvordan mennesker skal ta vare på naturen, for eksempel hva vi skal gjøre med søppel på tur, eller hvorfor vi ikke kan kjøre bil og motorsykkel i utmark.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-8</spm:Kode>
-          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle kunnskap knyttet til lokal og nasjonal natur.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Ha kunnskap om hvordan mennesker bruker naturen, for eksempel i jordbruk.</spm:DelMål>
-          		<spm:DelMål>Se på fem blomster eller trær og fem dyr, og lære seg navnet på disse.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          <spm:Mål>
-          	<spm:Kode>F-9</spm:Kode>
-          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
-          	<spm:Beskrivelse>Få erfaring med ferdsel i ulike naturmiljø og utforsking av ukjente områder.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Utforske et sted de ikke har vært på før.</spm:DelMål>
-          		<spm:DelMål>Være på turer og møter hvor de ser på naturtyper som er vanlige i nærmiljøet deres, som skog, fjell, eng og skjærgård. </spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-          
-          <spm:Mål>
-          	<spm:Kode>F-10</spm:Kode>
-          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
-          	<spm:Beskrivelse>Oppleve stemninger og skjønnhet i naturen, både alene og sammen med andre.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Se døgnet skifte og oppleve for eksempel stjernehimmel, solnedgang og soloppgang eller skyer i vinden.</spm:DelMål>
-          		<spm:DelMål>Finne noe fint eller uvanlig i naturen.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål><spm:Mål>
-          	<spm:Kode>F-11</spm:Kode>
-          	<spm:MålKategori>Naturkjennskap</spm:MålKategori>
-          	<spm:Beskrivelse>Utvikle kunnskap om og erfaring med bruk av ikke-motoriserte framkomstmidler.</spm:Beskrivelse>
-          	<spm:MålDeler>
-          		<spm:DelMål>Vite hvordan de kan komme seg fram uten å gå eller bruke motor og prøve å bevege seg i naturen med for eksempel sykkel, ski eller robåt.</spm:DelMål>
-          	</spm:MålDeler>
-          </spm:Mål>
-        	<spm:Mål>
-        		<spm:Kode>F-12</spm:Kode>
-        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
-        		<spm:Beskrivelse>Utvikle gode rutiner for turplanlegging.</spm:Beskrivelse>
-        		<spm:MålDeler>
-        			<spm:DelMål>Være med på å pakke en dagstursekk.</spm:DelMål>
-        			<spm:DelMål>Vite hvilke klær de skal ha på til ulike årstider.</spm:DelMål>
-        		</spm:MålDeler>
-        	</spm:Mål>
-        	<spm:Mål>
-        		<spm:Kode>F-13</spm:Kode>
-        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
-        		<spm:Beskrivelse>Utvikle kunnskap og erfaring innen forebygging og håndtering av ulykker.</spm:Beskrivelse>
-        		<spm:MålDeler>
-        			<spm:DelMål>Kunne skaffe hjelp ved en ulykke.</spm:DelMål>
-        			<spm:DelMål>Kunne nummeret til sykebil, politi og brannvesen.</spm:DelMål>
-        			<spm:DelMål>Kunne knivreglene, og følge dem.</spm:DelMål>
-        		</spm:MålDeler>
-        	</spm:Mål>
-        	<spm:Mål>
-        		<spm:Kode>F-14</spm:Kode>
-        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
-        		<spm:Beskrivelse>Utvikle og vedlikeholde ferdigheter innen førstehjelp.</spm:Beskrivelse>
-        		<spm:MålDeler>
-        			<spm:DelMål>Kunne rense sår og vite hvorfor det gjøres.</spm:DelMål>
-        			<spm:DelMål>Kunne sette på plaster og behandle sår og småskader. </spm:DelMål>
-        		</spm:MålDeler>
-        	</spm:Mål>
-        	<spm:Mål>
-        		<spm:Kode>F-15</spm:Kode>
-        		<spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
-        		<spm:Beskrivelse>Utvikle kunnskap om bruk og vedlikehold av turutstyr.</spm:Beskrivelse>
-        		<spm:MålDeler>
-        			<spm:DelMål>Holde orden på kniven: Passe på at kniven har hel slire, passe på at kniven legges i slira etter bruk, passe på at kniven ikke ligger på bakken.</spm:DelMål>
-        		</spm:MålDeler>
-        	</spm:Mål>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-2</spm:Kode>
+            <spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle gode ferdigheter innen orientering.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kjenne igjen de viktigste karttegnene som vann, myr, sti og vei.</spm:DelMål>
+              <spm:DelMål>Kjenne de fire himmelretningene.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-3</spm:Kode>
+            <spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap om og erfaring med ulike overnattingsformer.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kjenne til forskjellige overnattingsformer som telt, lavvo og gapahuk.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-4</spm:Kode>
+            <spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap om og erfaring med matlaging på ulike varmekilder.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Spise mat laget på bål, primus, i kokegrop eller på stormkjøkken.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-5</spm:Kode>
+            <spm:MålKategori>Friluftsferdigheter</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle gode ferdigheter for bruk av bål og åpen ild</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Hjelpe til med å lage et bål.</spm:DelMål>
+              <spm:DelMål>Kjenne til, og følge, regler for oppførsel ved bålet, og forstå hvorfor vi har disse reglene.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-6</spm:Kode>
+            <spm:MålKategori>Naturkjennskap</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle forståelse for friluftslivets verdier og betydning for samfunnet.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Finne ut hvorfor det er bra å være i ute i naturen.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-7</spm:Kode>
+            <spm:MålKategori>Naturkjennskap</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle forståelse for hvordan politiske beslutninger kan påvirke friluftslivet.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kjenne til regler for hvordan mennesker skal ta vare på naturen, for eksempel hva vi skal gjøre med søppel på tur, eller hvorfor vi ikke kan kjøre bil og motorsykkel i utmark.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-8</spm:Kode>
+            <spm:MålKategori>Naturkjennskap</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap knyttet til lokal og nasjonal natur.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Ha kunnskap om hvordan mennesker bruker naturen, for eksempel i jordbruk.</spm:DelMål>
+              <spm:DelMål>Se på fem blomster eller trær og fem dyr, og lære seg navnet på disse.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-9</spm:Kode>
+            <spm:MålKategori>Naturkjennskap</spm:MålKategori>
+            <spm:Beskrivelse>Få erfaring med ferdsel i ulike naturmiljø og utforsking av ukjente områder.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Utforske et sted de ikke har vært på før.</spm:DelMål>
+              <spm:DelMål>Være på turer og møter hvor de ser på naturtyper som er vanlige i nærmiljøet deres, som skog, fjell, eng og skjærgård.  </spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-10</spm:Kode>
+            <spm:MålKategori>Naturkjennskap</spm:MålKategori>
+            <spm:Beskrivelse>Oppleve stemninger og skjønnhet i naturen, både alene og sammen med andre.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Se døgnet skifte og oppleve for eksempel stjernehimmel, solnedgang og soloppgang eller skyer i vinden.</spm:DelMål>
+              <spm:DelMål>Finne noe fint eller uvanlig i naturen.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-11</spm:Kode>
+            <spm:MålKategori>Naturkjennskap</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap om og erfaring med bruk av ikke-motoriserte framkomstmidler.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Vite hvordan de  kan komme seg fram uten å gå eller bruke motor og prøve å bevege seg i naturen med for eksempel sykkel, ski eller robåt.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-12</spm:Kode>
+            <spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle gode rutiner for turplanlegging.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på å pakke en dagstursekk.</spm:DelMål>
+              <spm:DelMål>Vite hvilke klær de skal ha på til ulike årstider.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-13</spm:Kode>
+            <spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap og erfaring innen forebygging og håndtering av ulykker.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kunne skaffe hjelp ved en ulykke.</spm:DelMål>
+              <spm:DelMål>Kunne nummeret til sykebil, politi og brannvesen.</spm:DelMål>
+              <spm:DelMål>Kunne knivreglene, og følge dem.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-14</spm:Kode>
+            <spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle og vedlikeholde ferdigheter innen førstehjelp.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kunne rense sår og vite hvorfor det gjøres.</spm:DelMål>
+              <spm:DelMål>Kunne sette på plaster og behandle sår og småskader. </spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>F-15</spm:Kode>
+            <spm:MålKategori>Førstehjelp og sikkerhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap om bruk og vedlikehold av turutstyr.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Holde orden på kniven: Passe på at kniven har hel slire, passe på at kniven legges i slira etter bruk, passe på at kniven ikke ligger på bakken.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+      <spm:ProgramMerke>
+        <spm:Navn>Samfunnsengasjement</spm:Navn>
+        <spm:Beskrivelse>Fellesskap gjør sterk!
+Det er nok den viktigste grunnen til at vi danner samfunn. Vi slår oss sammen med likesinnede. Når vi er mange kan vi klare ting som vi ellers ikke ville klart. For at et samfunn skal fungere er det viktig at alle yter noe, og at alle bidrar på en positiv måte.
+
+Det å være samfunnsengasjert er å engasjere seg og bidra i de samfunn du ferdes i/tilhører på en positiv måte. Speiderloven gir gode retningslinjer for hva speidere kan gjøre.
+
+Hensikten med dette merket er at speiderne skal:
+
+    Få mulighet til medbestemmelse og trening i å ytre egne meninger.
+    Få forståelse for andre menneskers livssituasjon, bakgrunn og synspunkter.
+    Delta aktivt i å utvikle samfunnet positivt.</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>images/samfunnsengasjement_bever.gif</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>5</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-1</spm:Kode>
+            <spm:MålKategori>Demokrati og deltagelse</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med demokratiske verdier, og bruk din rett til medbestemmelse.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på å bestemme en aktivitet eller lek beverkolonien skal utføre.</spm:DelMål>
+              <spm:DelMål>Øve på å rekke opp hånda for å få ordet og å vente på sin tur til å snakke eller gjøre noe.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-2</spm:Kode>
+            <spm:MålKategori>Demokrati og deltagelse</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kritiske evner, og ytre egne meninger i ulike fora.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Øve på å snakke om noe sammen med andre bevere, og øve på å lytte til deres meninger.</spm:DelMål>
+              <spm:DelMål>Si sin mening når de blir spurt.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-3</spm:Kode>
+            <spm:MålKategori>Demokrati og deltagelse</spm:MålKategori>
+            <spm:Beskrivelse>Ta ansvar i speidersammenheng og i samfunnet lokalt, nasjonalt eller internasjonalt.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Ha ansvar for en oppgave på tur eller møte, for eksempel å gå bakerst, hjelpe til å dekke bordet eller samle inn refleksvester.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-4</spm:Kode>
+            <spm:MålKategori>Natur og miljø</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med hvordan mennesket påvirker samspillet i naturen, og gjør noe for å begrense skadelig påvirkning.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Vite hva som kan skade busker, trær og maurtuer, og vise hvordan vi behandler disse pent.</spm:DelMål>
+              <spm:DelMål>Forstå hvorfor vi tar med søppel hjem fra tur, og gjøre det hver gang vi er på tur.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-5</spm:Kode>
+            <spm:MålKategori>Natur og miljø</spm:MålKategori>
+            <spm:Beskrivelse>Bli bevisst behovet for redusert forbruk, motiver til og praktiser gjenbruk.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kjenne til tre forskjellige typer avfall.</spm:DelMål>
+              <spm:DelMål>Vite hvorfor vi ikke skal kaste alt søppelet i vanlig avfall.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-6</spm:Kode>
+            <spm:MålKategori>Natur og miljø</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med hvor ulike produkter kommer fra, og la dette få konsekvenser for hvilke produkter du velger.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lære om 2-3 måter å frakte mat på.</spm:DelMål>
+              <spm:DelMål>Lære om 2-3 typer mat som kommer fra ulike land.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-7</spm:Kode>
+            <spm:MålKategori>Natur og miljø</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med hva naturen gir av spiselige vekster, og bruk ingredienser fra naturen i matlaging.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Bli kjent med, finne og smake på flere forskjellige typer bær eller frukt.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-8</spm:Kode>
+            <spm:MålKategori>Kultur og identitet</spm:MålKategori>
+            <spm:Beskrivelse>Få kjennskap til oppbygging og organisering av ulike samfunn og samfunnsstrukturer.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lære seg sin egen adresse, og vite hva de forskjellige delene av den betyr.</spm:DelMål>
+              <spm:DelMål>Bli kjent med hvilke andre speidere som finnes i speidergruppa i tillegg til bevere.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-9</spm:Kode>
+            <spm:MålKategori>Kultur og identitet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle forståelse for forhold som bidrar til å skape samfunnsidentitet og tilhørighet.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Finne ut hva som er likt for alle mennesker som bor i Norge. </spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-10</spm:Kode>
+            <spm:MålKategori>Kultur og identitet</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med ulike kulturer og grupper av mennesker og arbeid for å sikre likeverd mellom mennesker.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lære "den gylne regel".</spm:DelMål>
+              <spm:DelMål>Bli kjent med et annet land, for eksempel et speideraksjonsland. </spm:DelMål>
+              <spm:DelMål>Tenke over om det finnes forskjeller mellom gutter og jenter, unge og gamle mennesker.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>S-11</spm:Kode>
+            <spm:MålKategori>Kultur og identitet</spm:MålKategori>
+            <spm:Beskrivelse>Sett deg inn i et aktuelt samfunnsproblem lokalt, nasjonalt eller internasjonalt, og finn ut hva vi som speidere kan gjøre for å minske dette problemet.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Delta på Speideraksjonen, og finne ut hva pengene brukes til.</spm:DelMål>
+              <spm:DelMål>Lære om en type naturkatastrofe, og snakke om hvordan den kan påvirke området som rammes av den.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+      <spm:ProgramMerke>
+        <spm:Navn>Vennskap</spm:Navn>
+        <spm:Beskrivelse>Hensikten med dette merket er at speiderne skal:
+
+    Oppleve fellesskap lokalt, nasjonalt og internasjonalt.
+    Oppføre seg hensynsfullt overfor andre, og respektere andres verdier og holdninger.
+    Få erfaring i å samarbeide med ulike mennesker.</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>images/Vennskap_bever.gif</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>5</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-1</spm:Kode>
+            <spm:MålKategori>Samarbeid</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle din evne til å samarbeide med andre.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Utføre 2-3 oppgaver som stiller krav til samarbeid, sammen med andre bevere.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-2</spm:Kode>
+            <spm:MålKategori>Samarbeid</spm:MålKategori>
+            <spm:Beskrivelse>Få øvelse i å stole på hverandre og vise hverandre tillit.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Delta i 2-3 aktiviteter eller leker som krever at de må jobbe sammen, hjelpe hverandre og stole på hverandre.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-3</spm:Kode>
+            <spm:MålKategori>Samarbeid</spm:MålKategori>
+            <spm:Beskrivelse>Utfordre egne grenser i aktivitet med andre.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Gjør noe som er skummelt eller vanskelig, sammen med andre.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-4</spm:Kode>
+            <spm:MålKategori>Kommunikasjon</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle din evne til kommunikasjon.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på aktiviteter der de kommuniserer på ulike måter, for eksempel ved hjelp av tegn, tale, skrift og tegninger. </spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-5</spm:Kode>
+            <spm:MålKategori>Kommunikasjon</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med alminnelige regler for omgang med andre.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kunne beverreglene, og prøve å følge dem.</spm:DelMål>
+              <spm:DelMål>Forstå hva det vil si å være høflig mot andre.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-6</spm:Kode>
+            <spm:MålKategori>Kommunikasjon</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med ulike metoder for konfliktløsning.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Forstå hvorfor det er lurt å snakke sammen når de er uenige.</spm:DelMål>
+              <spm:DelMål>Trene på å lytte til andres meninger.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-7</spm:Kode>
+            <spm:MålKategori>Kommunikasjon</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle evne til empati og solidaritet.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Øve på å forstå at mennesker har ulike behov og liker forskjellige ting.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-8</spm:Kode>
+            <spm:MålKategori>Speidervennskap</spm:MålKategori>
+            <spm:Beskrivelse>Være med på leirbål.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på leker, rop og sanger rundt et bål.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-9</spm:Kode>
+            <spm:MålKategori>Speidervennskap</spm:MålKategori>
+            <spm:Beskrivelse>Oppleve og bidra til godt samhold for alle i enheten.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på å lage noe som viser beverkoloniens særpreg.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-10</spm:Kode>
+            <spm:MålKategori>Speidervennskap</spm:MålKategori>
+            <spm:Beskrivelse>Gjøre noe sammen med speidere fra en annen gruppe eller enhet.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Gjøre noe sammen med andre bevere eller en annen enhet i gruppa.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>V-11</spm:Kode>
+            <spm:MålKategori>Speidervennskap</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med speidingen og speiderbevegelsen i andre land, og vær i kontakt med speidere fra andre land.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lære og leke minst to leker som speidere leker i andre land.</spm:DelMål>
+              <spm:DelMål>Vite at det finnes speidere i andre land.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+      <spm:ProgramMerke>
+        <spm:Navn>Kreativitet</spm:Navn>
+        <spm:Beskrivelse>Hensikten med dette merket er at speiderne skal:
+
+    Utvikle og bruke egne ferdigheter og kunnskaper til å løse nye utfordringer.
+    Videreutvikle og bruke fantasien.</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>images/Kreativitet_Bever.gif</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>7</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-1</spm:Kode>
+            <spm:MålKategori>Sanse</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle dine sanser, motorikk og koordinasjonsevne.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Forbedre koordinasjonsevnen og motorikken gjennom å delta i leker og aktiviteter i utfordrende terreng.</spm:DelMål>
+              <spm:DelMål>Bruke sine sanser og motorikk gjennom å leke sanse- og bevegelsesleker.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-2</spm:Kode>
+            <spm:MålKategori>Sanse</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle hukommelsen din.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kunne telefonnummeret eller adressen hjem utenat.   </spm:DelMål>
+              <spm:DelMål>Lære beverropet utenat.</spm:DelMål>
+              <spm:DelMål>Være med på leker og spill som stiller krav til hukommelsen deres.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-3</spm:Kode>
+            <spm:MålKategori>Sanse</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle din evne til observasjon og iakttagelse.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Trene oppmerksomheten sin gjennom å delta i leker som hermeleker eller Kims lek.</spm:DelMål>
+              <spm:DelMål>Trene på å sammenligne og se forskjell på forskjellige varianter av samme ting, som for eksempel blader, hus eller biler.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-4</spm:Kode>
+            <spm:MålKategori>Sanse</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle evner til logisk og taktisk tenking.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Trene på å tenke logisk eller taktisk gjennom å delta i leker som politi og tyv, katt og mus, "gå på isflak" eller gjemsel.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-5</spm:Kode>
+            <spm:MålKategori>Gjøre</spm:MålKategori>
+            <spm:Beskrivelse>Få øvelse i å bruke hendene til å lage noe.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lage en enkel pynte- eller nyttegjenstand.  </spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-6</spm:Kode>
+            <spm:MålKategori>Gjøre</spm:MålKategori>
+            <spm:Beskrivelse>Få erfaringer med arbeidstegninger og oppskrifter.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Følge en enkel arbeidstegning, for eksempel når de bygger med Lego.</spm:DelMål>
+              <spm:DelMål>Være med på å lage mat sammen med andre etter en oppskrift.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-7</spm:Kode>
+            <spm:MålKategori>Gjøre</spm:MålKategori>
+            <spm:Beskrivelse>Få øvelse i å bruke ulike redskaper.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Trene på å bruke kniv, gaffel og skje til å spise pent.</spm:DelMål>
+              <spm:DelMål>Vise at de kan følge knivreglene.</spm:DelMål>
+              <spm:DelMål>Trene på å bruke saks.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-8</spm:Kode>
+            <spm:MålKategori>Gjøre</spm:MålKategori>
+            <spm:Beskrivelse>Få erfaring i å bruke forskjellige naturmaterialer og andre typer materialer.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lage en figur eller pyntegjenstand av natur- eller andre typer materialer.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-9</spm:Kode>
+            <spm:MålKategori>Gjøre</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap om og ferdigheter i bruken av knuter, surringer, spleiser, taklinger og tautyper.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Få øvelse i å flette, knyte skolissene eller gjøre andre hverdagslige oppgaver ved hjelp av tau, hyssing eller garn.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-10 </spm:Kode>
+            <spm:MålKategori>Vise</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med og få øvelse i bruk av ulike tegn og symboler.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Trene på å forstå betydningen av forskjellige ukjente symboler.</spm:DelMål>
+              <spm:DelMål>Kjenne til betydningen av noen trafikkskilt.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-12</spm:Kode>
+            <spm:MålKategori>Vise</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle din evne til improvisasjon.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Øve på å bruke fantasien sin gjennom å leke leker der de må spille en rolle eller finne på nye løsninger.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-13</spm:Kode>
+            <spm:MålKategori>Vise</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle musikalitet og musikalske ferdigheter.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på å synge sanger  sammen med andre.</spm:DelMål>
+              <spm:DelMål>Være med på rytmiske leker og sangleker.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-14</spm:Kode>
+            <spm:MålKategori>Vise</spm:MålKategori>
+            <spm:Beskrivelse>Få erfaring med å spille teater, mime, dramatisere eller lignende.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på dramatisering av noe i beverkolonien.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>K-15</spm:Kode>
+            <spm:MålKategori>Vise</spm:MålKategori>
+            <spm:Beskrivelse>Få øvelse i bruk av teknologisk utstyr.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Kunne bruke elektronisk utstyr de bruker i hverdagen, som telefon, radio, tv og annet.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+        </spm:ProgramMål>
+      </spm:ProgramMerke>
+      <spm:ProgramMerke>
+        <spm:Navn>Livskvalitet</spm:Navn>
+        <spm:Beskrivelse>Hensikten med dette merket er at speiderne skal:
+
+    Reflektere over egen tro, livssyn, moral, etikk og speidingens verdigrunnlag, og bli bevisst på eget verdigrunnlag.
+    Ta ansvar for egen utvikling, og forstå konsekvenser av egne valg.
+    Bli glad i deg selv og bevisst på egen helse</spm:Beskrivelse>
+        <spm:MerkeBildeUrl>images/Livskvalitet_bever.gif</spm:MerkeBildeUrl>
+        <spm:AntallMålSomSkalNås>6</spm:AntallMålSomSkalNås>
+        <spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-1</spm:Kode>
+            <spm:MålKategori>Ettertanke</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle forståelse for speidingens verdigrunnlag og viktige særtrekk ved egen organisasjon.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på beverseremonier.</spm:DelMål>
+              <spm:DelMål>Kjenne til speiderloven.</spm:DelMål>
+              <spm:DelMål>Kjenne, og forstå, beverløftet.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-2</spm:Kode>
+            <spm:MålKategori>Ettertanke</spm:MålKategori>
+            <spm:Beskrivelse>Bli bevisst på egne verdier, normer og holdninger.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Snakke om ting som omsorg og familie, rettferdighet og urettferdighet, erting og vennskap.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-3</spm:Kode>
+            <spm:MålKategori>Ettertanke</spm:MålKategori>
+            <spm:Beskrivelse>Bli bevisst på hvem du er, og bli kjent med dine sterke sider og utviklingsmuligheter.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Finne ut hva de er flinke til.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-4</spm:Kode>
+            <spm:MålKategori>Ettertanke</spm:MålKategori>
+            <spm:Beskrivelse>Tenk gjennom eget livssyn, og bli bevisst på hva du står for.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Diskutere spørsmål som: Hvorfor er vi her? Hvor kommer vi fra? Hvorfor er ting som de er?</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-5</spm:Kode>
+            <spm:MålKategori>Fellesskap</spm:MålKategori>
+            <spm:Beskrivelse>Spre glede.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Finne noe som kan gjøre noen glad, og gjøre dette.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-6</spm:Kode>
+            <spm:MålKategori>Fellesskap</spm:MålKategori>
+            <spm:Beskrivelse>Delta i en leirbålsprat.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Øve på å sitte samlet og lytte når andre snakker.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-7</spm:Kode>
+            <spm:MålKategori>Fellesskap</spm:MålKategori>
+            <spm:Beskrivelse>Delta på en Scouts Own.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være til stede på en Scouts Own, og prøve å følge med på det som skjer.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-8</spm:Kode>
+            <spm:MålKategori>Fellesskap</spm:MålKategori>
+            <spm:Beskrivelse>Bli kjent med et trossamfunn og delta i seremonier knyttet til et trossamfunn.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Være med på en seremoni i et trossamfunn.</spm:DelMål>
+              <spm:DelMål>Kjenne til at det finnes mange forskjellige trossamfunn.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-9</spm:Kode>
+            <spm:MålKategori>Fellesskap</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle forståelse for hvordan mennesker med andre psykiske eller fysiske forutseninger enn deg har det i sin hverdag.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Forstå at alle mennesker er forskjellige, og hvorfor det er bra.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-10</spm:Kode>
+            <spm:MålKategori>Fellesskap</spm:MålKategori>
+            <spm:Beskrivelse> Utvikle holdninger mot uærlighet, hærverk og tyveri.   </spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Øve på å forstå forkjellen på mitt og ditt.</spm:DelMål>
+              <spm:DelMål>Forstå hvorfor de skal snakke sant.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-11</spm:Kode>
+            <spm:MålKategori>Sunnhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle forståelse for skadevirkningene som følger av rusmidler, tobakk og andre avhengighetsdannende stoffer, og la dette få innvirkninger på dine valg.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Forstå hvorfor det ikke er bra med for mye sukker.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-12</spm:Kode>
+            <spm:MålKategori>Sunnhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvilke forståelse for sammenhengen mellom kosthold, mosjon og helse, og la dette få konsekvenser i din hverdag.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Finne ut hvor ofte de spiser disse matvarene, og finne ut hvilken sunn mat de kan spise mer av.</spm:DelMål>
+              <spm:DelMål>Kjenne til 3-4 sunne matvarer.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-13</spm:Kode>
+            <spm:MålKategori>Sunnhet</spm:MålKategori>
+            <spm:Beskrivelse>Lære om smittsomme sykdommer.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Lære å unngå å smitte andre ved forkjølelse.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
+          <spm:ProgramMål>
+            <spm:Kode>L-14</spm:Kode>
+            <spm:MålKategori>Sunnhet</spm:MålKategori>
+            <spm:Beskrivelse>Utvikle kunnskap om hygiene på tur og leir.</spm:Beskrivelse>
+            <spm:MålDeler>
+              <spm:DelMål>Forstå hvorfor de skal vaske hender før måltider og etter å ha vært på do.</spm:DelMål>
+            </spm:MålDeler>
+          </spm:ProgramMål>
         </spm:ProgramMål>
       </spm:ProgramMerke>
     </spm:ProgramMerker>
@@ -161,22 +644,6 @@
   </spm:BeverMerker>
   <spm:SmåspeiderMerker>
     <spm:ProgramMerker>
-      <spm:ProgramMerke>
-        <spm:Navn>spm:Navn</spm:Navn>
-        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
-        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
-        <spm:ProgramMål>
-          <spm:Mål>
-            <spm:Kode>spm:Kode</spm:Kode>
-            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
-            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-            <spm:MålDeler>
-              <spm:DelMål>spm:DelMål</spm:DelMål>
-            </spm:MålDeler>
-          </spm:Mål>
-        </spm:ProgramMål>
-      </spm:ProgramMerke>
     </spm:ProgramMerker>
     <spm:FordypningsMerker>
       <spm:FordypningsMerke>
@@ -186,7 +653,7 @@
         <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
         <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
         <spm:MerkeType>Speider</spm:MerkeType>
-        <spm:BidrarTil/>
+        <spm:BidrarTil />
         <spm:Oppgaver>
           <spm:Oppgave>
             <spm:DelOppgaver>
@@ -217,22 +684,6 @@
   </spm:SmåspeiderMerker>
   <spm:StifinnerMerker>
     <spm:ProgramMerker>
-      <spm:ProgramMerke>
-        <spm:Navn>spm:Navn</spm:Navn>
-        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
-        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
-        <spm:ProgramMål>
-          <spm:Mål>
-            <spm:Kode>spm:Kode</spm:Kode>
-            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
-            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-            <spm:MålDeler>
-              <spm:DelMål>spm:DelMål</spm:DelMål>
-            </spm:MålDeler>
-          </spm:Mål>
-        </spm:ProgramMål>
-      </spm:ProgramMerke>
     </spm:ProgramMerker>
     <spm:FordypningsMerker>
       <spm:FordypningsMerke>
@@ -242,7 +693,7 @@
         <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
         <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
         <spm:MerkeType>Speider</spm:MerkeType>
-        <spm:BidrarTil/>
+        <spm:BidrarTil />
         <spm:Oppgaver>
           <spm:Oppgave>
             <spm:DelOppgaver>
@@ -273,22 +724,6 @@
   </spm:StifinnerMerker>
   <spm:VandrerMerker>
     <spm:ProgramMerker>
-      <spm:ProgramMerke>
-        <spm:Navn>spm:Navn</spm:Navn>
-        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
-        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
-        <spm:ProgramMål>
-          <spm:Mål>
-            <spm:Kode>spm:Kode</spm:Kode>
-            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
-            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-            <spm:MålDeler>
-              <spm:DelMål>spm:DelMål</spm:DelMål>
-            </spm:MålDeler>
-          </spm:Mål>
-        </spm:ProgramMål>
-      </spm:ProgramMerke>
     </spm:ProgramMerker>
     <spm:FordypningsMerker>
       <spm:FordypningsMerke>
@@ -298,7 +733,7 @@
         <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
         <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
         <spm:MerkeType>Speider</spm:MerkeType>
-        <spm:BidrarTil/>
+        <spm:BidrarTil />
         <spm:Oppgaver>
           <spm:Oppgave>
             <spm:DelOppgaver>
@@ -313,22 +748,6 @@
   </spm:VandrerMerker>
   <spm:RoverMerker>
     <spm:ProgramMerker>
-      <spm:ProgramMerke>
-        <spm:Navn>spm:Navn</spm:Navn>
-        <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-        <spm:MerkeBildeUrl>spm:MerkeBildeUrl</spm:MerkeBildeUrl>
-        <spm:AntallMålSomSkalNås>0</spm:AntallMålSomSkalNås>
-        <spm:ProgramMål>
-          <spm:Mål>
-            <spm:Kode>spm:Kode</spm:Kode>
-            <spm:MålKategori>spm:MålKategori</spm:MålKategori>
-            <spm:Beskrivelse>spm:Beskrivelse</spm:Beskrivelse>
-            <spm:MålDeler>
-              <spm:DelMål>spm:DelMål</spm:DelMål>
-            </spm:MålDeler>
-          </spm:Mål>
-        </spm:ProgramMål>
-      </spm:ProgramMerke>
     </spm:ProgramMerker>
     <spm:FordypningsMerker>
       <spm:FordypningsMerke>
@@ -338,7 +757,7 @@
         <spm:Begrunnelse>spm:Begrunnelse</spm:Begrunnelse>
         <spm:EkstraInfo>spm:EkstraInfo</spm:EkstraInfo>
         <spm:MerkeType>Speider</spm:MerkeType>
-        <spm:BidrarTil/>
+        <spm:BidrarTil />
         <spm:Oppgaver>
           <spm:Oppgave>
             <spm:DelOppgaver>
